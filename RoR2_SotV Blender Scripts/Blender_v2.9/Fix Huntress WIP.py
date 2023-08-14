@@ -1,22 +1,20 @@
 #Orignal Creator: KingEnderBrine
 #Modified by: RuneFox237
-#Version 1.0.1
+#Version 1.1.0
 
 import bpy
 import re
 from math import radians
 from mathutils import Vector
 
-############################################################
-# NOTE: Does not currently export Scarf bones correctly
-############################################################
-
 bonesOrder = ['ROOT', 'base', 'stomach', 'chest', 'upper_arm.l', 'lower_arm.l', 'hand.l', 'finger1.1.l', 'finger1.2.l', 'finger1.3.l', 'finger2.1.l', 'finger2.2.l', 'finger2.3.l', 'finger3.1.l', 'finger3.2.l', 'finger3.3.l', 'finger4.1.l', 'finger4.2.l', 'finger4.3.l', 'thumb.1.l', 'thumb.2.l', 'upper_arm.r', 'lower_arm.r', 'hand.r', 'finger1.1.r', 'finger1.2.r', 'finger1.3.r', 'finger2.1.r', 'finger2.2.r', 'finger2.3.r', 'finger3.1.r', 'finger3.2.r', 'finger3.3.r', 'finger4.1.r', 'finger4.2.r', 'finger4.3.r', 'thumb.1.r', 'thumb.2.r', 'head', 'pelvis', 'thigh.l', 'calf.l', 'foot.l', 'toe.l', 'thigh.r', 'calf.r', 'foot.r', 'toe.r', 'BowRoot', 'BowStringIKTarget', 'HelperBowString', 'BowBase', 'BowHinge1.l', 'BowHinge2.l', 'BowString.L', 'BowHinge1.r', 'BowHinge2.r', 'BowString.R', 'HelperBowBase', 'IKArmTarget.l', 'IKArmPole.l', 'IKLegTarget.l', 'IKLegPole.l', 'IKLegTarget.r', 'IKLegPole.r', 'IKArmTarget.r', 'IKArmPole.r', 'HandGripControl.l', 'HandGripControl.r']
 
-extraArmBonesOrder = ['ScarfBase,Detatched', 'Scarf', 'Scarf.004', 'Scarf.002', 'Scarf.006', 'Scarf.001', 'Scarf.005', 'Scarf.003', 'Scarf.007']
-extraArmParentBone = 'head'
-extraArmName = 'HuntressScarfArmature,Detatched'
+extraArmBonesOrder = ['ScarfBase', 'Scarf', 'Scarf.004', 'Scarf.002', 'Scarf.006', 'Scarf.001', 'Scarf.005', 'Scarf.003', 'Scarf.007']
+extraArmParentBone = 'chest'
+extraArmName = 'HuntressScarfArmature'
 extraArmMeshes = ['HuntressScarfMesh']
+extraArmOffset = Vector((-0.15413, 0.880586, 0.704945))
+extraArmRotation = (radians(-33.4912), radians(6.73003), radians(21.3605))
 
 srcArmName = 'Armature'
 srcMeshName = 'HuntressMesh'
@@ -248,7 +246,7 @@ def Finalize():
     for obj in bpy.data.objects:
         bpy.ops.object.transform_apply(location = True, scale = False, rotation = True)
 
-def ExtractExtraArmature(srcArmName, extraArmName, extraArmBonesOrder, extraArmParentBone):
+def ExtractExtraArmature(srcArmName, extraArmName, extraArmBonesOrder, extraArmParentBone, extraArmOffset):
     global offsetFromRoot
     
     srcArm = bpy.data.objects[srcArmName]
@@ -272,7 +270,8 @@ def ExtractExtraArmature(srcArmName, extraArmName, extraArmBonesOrder, extraArmP
     srcEditBones = srcArm.data.edit_bones
     
     rootOffset = Vector(srcEditBones.get('ROOT').parent.head) if srcEditBones.get('ROOT').parent is not None else None
-    offset = Vector(srcEditBones.get(extraArmBonesOrder[0]).parent.head) if srcEditBones.get(extraArmBonesOrder[0]).parent is not None else None
+    #offset = Vector(srcEditBones.get(extraArmBonesOrder[0]).parent.head) if srcEditBones.get(extraArmBonesOrder[0]).parent is not None else None
+    offset = extraArmOffset
     
     offsetFromRoot = rootOffset - offset
     
@@ -299,6 +298,16 @@ def MoveMeshesToExtra(extraArmName, extraArmMeshes, offsetFromRoot):
         mesh.parent = extraArm
         mesh.location += offsetFromRoot
     
+def FinalizeExtra(extraArmName, extraArmRotation):
+    extraArm = bpy.data.objects[extraArmName]
+    
+    extraArm.rotation_euler = extraArmRotation
+    bpy.ops.object.select_all(action='DESELECT')
+    bpy.context.view_layer.objects.active = extraArm
+    extraArm.select_set(True)
+    bpy.ops.object.transform_apply(location = False, scale = False, rotation = True)
+    bpy.ops.object.select_all(action='DESELECT')
+    
 meshParentBones = {}
 
 RemoveExcessiveMeshes(excessiveMeshes)
@@ -307,8 +316,9 @@ PrepareMeshes(srcMeshName, meshParentBones, meshesScale, meshOffset, meshSpecifi
 
 offsetFromRoot = None
 
-#ExtractExtraArmature(srcArmName, extraArmName, extraArmBonesOrder, extraArmParentBone)
-#MoveMeshesToExtra(extraArmName, extraArmMeshes, offsetFromRoot)
+ExtractExtraArmature(srcArmName, extraArmName, extraArmBonesOrder, extraArmParentBone, extraArmOffset)
+MoveMeshesToExtra(extraArmName, extraArmMeshes, offsetFromRoot)
+FinalizeExtra(extraArmName, extraArmRotation)
 
 PrepareBones(bonesOrder, srcArmName)
 FinalizeBones(bonesOrder, srcArmName)
