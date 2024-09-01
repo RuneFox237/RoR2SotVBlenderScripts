@@ -1,173 +1,195 @@
 Bandit2Body
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:Bandit2AccessoriesMesh
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:Bandit2ArmsMesh
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:Bandit2BodyMesh
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:Bandit2CoatMesh
-Index: 4       Type: UnityEngine.MeshRenderer               Name:BanditShotgunMesh
-Index: 5       Type: UnityEngine.MeshRenderer               Name:BladeMesh
-Index: 6       Type: UnityEngine.MeshRenderer               Name:Bandit2HatMesh
-Index: 7       Type: UnityEngine.MeshRenderer               Name:BanditPistolMesh
-Index: 8       Type: UnityEngine.ParticleSystemRenderer     Name:SwingTrail, Distortion
-Index: 9       Type: UnityEngine.ParticleSystemRenderer     Name:SwingTrail
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:Bandit2AccessoriesMesh
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:Bandit2ArmsMesh
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:Bandit2BodyMesh
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:Bandit2CoatMesh
+Index: 4    Type: UnityEngine.MeshRenderer              Name:BanditShotgunMesh
+Index: 5    Type: UnityEngine.MeshRenderer              Name:BladeMesh
+Index: 6    Type: UnityEngine.MeshRenderer              Name:Bandit2HatMesh
+Index: 7    Type: UnityEngine.MeshRenderer              Name:BanditPistolMesh
+Index: 8    Type: UnityEngine.ParticleSystemRenderer    Name:SwingTrail, Distortion
+Index: 9    Type: UnityEngine.ParticleSystemRenderer    Name:SwingTrail
 
----------------------
+-------------------------------
 CaptainBody
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:Captain
-Index: 1       Type: UnityEngine.MeshRenderer               Name:CaptainHat
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:CaptainChestArmor
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:CaptainCoat
-Index: 4       Type: UnityEngine.SkinnedMeshRenderer        Name:CaptainGunArm
-Index: 5       Type: UnityEngine.SkinnedMeshRenderer        Name:CaptainHead
-Index: 6       Type: UnityEngine.SkinnedMeshRenderer        Name:CaptainUndercoat
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:Captain
+Index: 1    Type: UnityEngine.MeshRenderer              Name:CaptainHat
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:CaptainChestArmor
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:CaptainCoat
+Index: 4    Type: UnityEngine.SkinnedMeshRenderer       Name:CaptainGunArm
+Index: 5    Type: UnityEngine.SkinnedMeshRenderer       Name:CaptainHead
+Index: 6    Type: UnityEngine.SkinnedMeshRenderer       Name:CaptainUndercoat
 
----------------------
+-------------------------------
+ChefBody
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:meshChef
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:meshChefPizzaCutter
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:meshlChefCleaver
+
+-------------------------------
 CommandoBody
-Index: 0       Type: UnityEngine.MeshRenderer               Name:GunMesh.001
-Index: 1       Type: UnityEngine.ParticleSystemRenderer     Name:SwingTrail, Distortion
-Index: 2       Type: UnityEngine.ParticleSystemRenderer     Name:SwingTrail
-Index: 3       Type: UnityEngine.MeshRenderer               Name:GunMesh
-Index: 4       Type: UnityEngine.ParticleSystemRenderer     Name:SwingTrail, Distortion
-Index: 5       Type: UnityEngine.ParticleSystemRenderer     Name:SwingTrail
-Index: 6       Type: UnityEngine.SkinnedMeshRenderer        Name:CommandoMesh
+Index: 0    Type: UnityEngine.MeshRenderer              Name:GunMesh.001
+Index: 1    Type: UnityEngine.ParticleSystemRenderer    Name:SwingTrail, Distortion
+Index: 2    Type: UnityEngine.ParticleSystemRenderer    Name:SwingTrail
+Index: 3    Type: UnityEngine.MeshRenderer              Name:GunMesh
+Index: 4    Type: UnityEngine.ParticleSystemRenderer    Name:SwingTrail, Distortion
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:SwingTrail
+Index: 6    Type: UnityEngine.SkinnedMeshRenderer       Name:CommandoMesh
 
----------------------
+-------------------------------
 CrocoBody
-Index: 0       Type: UnityEngine.MeshRenderer               Name:Goo
-Index: 1       Type: UnityEngine.ParticleSystemRenderer     Name:Goo
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:CrocoMesh
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:CrocoSpineMesh
+Index: 0    Type: UnityEngine.MeshRenderer              Name:Goo
+Index: 1    Type: UnityEngine.ParticleSystemRenderer    Name:Goo
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:CrocoMesh
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:CrocoSpineMesh
 
----------------------
+-------------------------------
 EngiBody
-Index: 0       Type: UnityEngine.ParticleSystemRenderer     Name:Distortion
-Index: 1       Type: UnityEngine.ParticleSystemRenderer     Name:Jet
-Index: 2       Type: UnityEngine.ParticleSystemRenderer     Name:Distortion
-Index: 3       Type: UnityEngine.ParticleSystemRenderer     Name:Jet
-Index: 4       Type: UnityEngine.SkinnedMeshRenderer        Name:EngiMesh
-Index: 5       Type: UnityEngine.ParticleSystemRenderer     Name:SprintDust
+Index: 0    Type: UnityEngine.ParticleSystemRenderer    Name:Distortion
+Index: 1    Type: UnityEngine.ParticleSystemRenderer    Name:Jet
+Index: 2    Type: UnityEngine.ParticleSystemRenderer    Name:Distortion
+Index: 3    Type: UnityEngine.ParticleSystemRenderer    Name:Jet
+Index: 4    Type: UnityEngine.SkinnedMeshRenderer       Name:EngiMesh
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:SprintDust
 
----------------------
+-------------------------------
+FalseSonBody
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name: FalseSon_Body
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name: FalseSon_Cloth
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name: L_FalseSon_Weapon
+
+-------------------------------
 HereticBody
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticBandArms
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticBandTorso
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticBodyFeathers
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticBodyNew
-Index: 4       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticCape
-Index: 5       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticClothes
-Index: 6       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticEyes
-Index: 7       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticFeathersLarge
-Index: 8       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticFeathersSmall
-Index: 9       Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticSash
-Index: 10      Type: UnityEngine.SkinnedMeshRenderer        Name:Mesh_HereticTabard
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticBandArms
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticBandTorso
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticBodyFeathers
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticBodyNew
+Index: 4    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticCape
+Index: 5    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticClothes
+Index: 6    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticEyes
+Index: 7    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticFeathersLarge
+Index: 8    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticFeathersSmall
+Index: 9    Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticSash
+Index: 10   Type: UnityEngine.SkinnedMeshRenderer       Name:Mesh_HereticTabard
 
----------------------
+-------------------------------
 HuntressBody
-Index: 0       Type: UnityEngine.LineRenderer               Name:BowString
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:BowMesh
-Index: 2       Type: UnityEngine.MeshRenderer               Name:Quad 1
-Index: 3       Type: UnityEngine.MeshRenderer               Name:Quad 2
-Index: 4       Type: UnityEngine.ParticleSystemRenderer     Name:Flash
-Index: 5       Type: UnityEngine.MeshRenderer               Name:Quad Cluster 1
-Index: 6       Type: UnityEngine.MeshRenderer               Name:Quad Cluster 2
-Index: 7       Type: UnityEngine.MeshRenderer               Name:Quad Cluster 3
-Index: 8       Type: UnityEngine.MeshRenderer               Name:Quad Cluster 4
-Index: 9       Type: UnityEngine.MeshRenderer               Name:Quad Cluster 5
-Index: 10      Type: UnityEngine.SkinnedMeshRenderer        Name:HuntressMesh
-Index: 11      Type: UnityEngine.SkinnedMeshRenderer        Name:HuntressScarfMesh
+Index: 0    Type: UnityEngine.LineRenderer              Name:BowString
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:BowMesh
+Index: 2    Type: UnityEngine.MeshRenderer              Name:Quad 1
+Index: 3    Type: UnityEngine.MeshRenderer              Name:Quad 2
+Index: 4    Type: UnityEngine.ParticleSystemRenderer    Name:Flash
+Index: 5    Type: UnityEngine.MeshRenderer              Name:Quad Cluster 1
+Index: 6    Type: UnityEngine.MeshRenderer              Name:Quad Cluster 2
+Index: 7    Type: UnityEngine.MeshRenderer              Name:Quad Cluster 3
+Index: 8    Type: UnityEngine.MeshRenderer              Name:Quad Cluster 4
+Index: 9    Type: UnityEngine.MeshRenderer              Name:Quad Cluster 5
+Index: 10   Type: UnityEngine.SkinnedMeshRenderer       Name:HuntressMesh
+Index: 11   Type: UnityEngine.SkinnedMeshRenderer       Name:HuntressScarfMesh
 
----------------------
+-------------------------------
 LoaderBody
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:LoaderMechMesh
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:PilotFemaleFoldedOverJumpsuit
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:PilotFemaleMesh
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:LoaderMechMesh
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:PilotFemaleFoldedOverJumpsuit
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:PilotFemaleMesh
 
----------------------
+-------------------------------
 MageBody
-Index: 0       Type: UnityEngine.MeshRenderer               Name:Jets, Right
-Index: 1       Type: UnityEngine.MeshRenderer               Name:Jets, Left
-Index: 2       Type: UnityEngine.ParticleSystemRenderer     Name:Fire
-Index: 3       Type: UnityEngine.MeshRenderer               Name:JetsL
-Index: 4       Type: UnityEngine.MeshRenderer               Name:JetsR
-Index: 5       Type: UnityEngine.ParticleSystemRenderer     Name:FireRing
-Index: 6       Type: UnityEngine.SkinnedMeshRenderer        Name:MageCapeMesh
-Index: 7       Type: UnityEngine.SkinnedMeshRenderer        Name:MageMesh
+Index: 0    Type: UnityEngine.MeshRenderer              Name:Jets, Right
+Index: 1    Type: UnityEngine.MeshRenderer              Name:Jets, Left
+Index: 2    Type: UnityEngine.ParticleSystemRenderer    Name:Fire
+Index: 3    Type: UnityEngine.MeshRenderer              Name:JetsL
+Index: 4    Type: UnityEngine.MeshRenderer              Name:JetsR
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:FireRing
+Index: 6    Type: UnityEngine.SkinnedMeshRenderer       Name:MageCapeMesh
+Index: 7    Type: UnityEngine.SkinnedMeshRenderer       Name:MageMesh
 
----------------------
+-------------------------------
 MercBody
-Index: 0       Type: UnityEngine.ParticleSystemRenderer     Name:ContractingEnergy
-Index: 1       Type: UnityEngine.ParticleSystemRenderer     Name:FireEmission
-Index: 2       Type: UnityEngine.ParticleSystemRenderer     Name:BrightRing
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:MercMesh
-Index: 4       Type: UnityEngine.SkinnedMeshRenderer        Name:MercSwordMesh
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:meshMercAltPrisonerFrontCloth
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:meshMercAltPrisonerBackCloth
+Index: 2    Type: UnityEngine.ParticleSystemRenderer    Name:Fire
+Index: 3    Type: UnityEngine.ParticleSystemRenderer    Name:EyeGlow
+Index: 4    Type: UnityEngine.ParticleSystemRenderer    Name:ContractingEnergy
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:FireEmission
+Index: 6    Type: UnityEngine.ParticleSystemRenderer    Name:BrightRing
+Index: 7    Type: UnityEngine.SkinnedMeshRenderer       Name:MercMesh
+Index: 8    Type: UnityEngine.SkinnedMeshRenderer       Name:MercSwordMesh
 
----------------------
+-------------------------------
+SeekerBody
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name: meshSeekerBody
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name: meshSeekerCloth
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name: meshSeekerGlass
+
+-------------------------------
 ToolbotBody
-Index: 0       Type: UnityEngine.ParticleSystemRenderer     Name:GenericFootstepDust
-Index: 1       Type: UnityEngine.ParticleSystemRenderer     Name:SparkEmitter
-Index: 2       Type: UnityEngine.ParticleSystemRenderer     Name:GenericFootstepDust
-Index: 3       Type: UnityEngine.ParticleSystemRenderer     Name:SparkEmitter
-Index: 4       Type: UnityEngine.MeshRenderer               Name:RebarMesh
-Index: 5       Type: UnityEngine.SkinnedMeshRenderer        Name:ToolbotMesh
+Index: 0    Type: UnityEngine.ParticleSystemRenderer    Name:GenericFootstepDust
+Index: 1    Type: UnityEngine.ParticleSystemRenderer    Name:SparkEmitter
+Index: 2    Type: UnityEngine.ParticleSystemRenderer    Name:GenericFootstepDust
+Index: 3    Type: UnityEngine.ParticleSystemRenderer    Name:SparkEmitter
+Index: 4    Type: UnityEngine.MeshRenderer              Name:RebarMesh
+Index: 5    Type: UnityEngine.SkinnedMeshRenderer       Name:ToolbotMesh
 
----------------------
+-------------------------------
 TreebotBody
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:TreebotBotMesh
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:TreebotFlowerMesh
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:TreebotLeafletMesh
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:TreebotRootMesh
-Index: 4       Type: UnityEngine.ParticleSystemRenderer     Name:Debris
-Index: 5       Type: UnityEngine.ParticleSystemRenderer     Name:Dust
-Index: 6       Type: UnityEngine.ParticleSystemRenderer     Name:Roots
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:TreebotBotMesh
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:TreebotFlowerMesh
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:TreebotLeafletMesh
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:TreebotRootMesh
+Index: 4    Type: UnityEngine.ParticleSystemRenderer    Name:Debris
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:Dust
+Index: 6    Type: UnityEngine.ParticleSystemRenderer    Name:Roots
 
----------------------
+-------------------------------
 RailgunnerBody
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlRailgunBackpackMesh
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlRailGunBackpackScreen
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlRailGunnerBase
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlRailGunnerMetal
-Index: 4       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlRailgunProto
-Index: 5       Type: UnityEngine.ParticleSystemRenderer     Name:StatusLED, Rail
-Index: 6       Type: UnityEngine.ParticleSystemRenderer     Name:StatusLED, Rail
-Index: 7       Type: UnityEngine.ParticleSystemRenderer     Name:PowerLED, Barrel
-Index: 8       Type: UnityEngine.LineRenderer               Name:SMGLaser
-Index: 9       Type: UnityEngine.ParticleSystemRenderer     Name:StatusLED, Backpack
-Index: 10      Type: UnityEngine.ParticleSystemRenderer     Name:PowerLED, Barrel
-Index: 11      Type: UnityEngine.MeshRenderer               Name:Monitor, Charging
-Index: 12      Type: UnityEngine.MeshRenderer               Name:Monitor, Charging
-Index: 13      Type: UnityEngine.ParticleSystemRenderer     Name:SequentialFlashes, Burst
-Index: 14      Type: UnityEngine.ParticleSystemRenderer     Name:SequentialFlashes, Loop
-Index: 15      Type: UnityEngine.ParticleSystemRenderer     Name:Sparks, Out
-Index: 16      Type: UnityEngine.MeshRenderer               Name:Monitor, Charged
-Index: 17      Type: UnityEngine.ParticleSystemRenderer     Name:Sparks
-Index: 18      Type: UnityEngine.ParticleSystemRenderer     Name:Steam, Local
-Index: 19      Type: UnityEngine.ParticleSystemRenderer     Name:Steam, World
-Index: 20      Type: UnityEngine.ParticleSystemRenderer     Name:SequentialFlashes, Burst
-Index: 21      Type: UnityEngine.MeshRenderer               Name:Monitor, Reboot
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlRailgunBackpackMesh
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlRailGunBackpackScreen
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlRailGunnerBase
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlRailGunnerMetal
+Index: 4    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlRailgunProto
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:StatusLED, Rail
+Index: 6    Type: UnityEngine.ParticleSystemRenderer    Name:StatusLED, Rail
+Index: 7    Type: UnityEngine.ParticleSystemRenderer    Name:PowerLED, Barrel
+Index: 8    Type: UnityEngine.LineRenderer              Name:SMGLaser
+Index: 9    Type: UnityEngine.ParticleSystemRenderer    Name:StatusLED, Backpack
+Index: 10   Type: UnityEngine.ParticleSystemRenderer    Name:PowerLED, Barrel
+Index: 11   Type: UnityEngine.MeshRenderer              Name:Monitor, Charging
+Index: 12   Type: UnityEngine.MeshRenderer              Name:Monitor, Charging
+Index: 13   Type: UnityEngine.ParticleSystemRenderer    Name:SequentialFlashes, Burst
+Index: 14   Type: UnityEngine.ParticleSystemRenderer    Name:SequentialFlashes, Loop
+Index: 15   Type: UnityEngine.ParticleSystemRenderer    Name:Sparks, Out
+Index: 16   Type: UnityEngine.MeshRenderer              Name:Monitor, Charged
+Index: 17   Type: UnityEngine.ParticleSystemRenderer    Name:Sparks
+Index: 18   Type: UnityEngine.ParticleSystemRenderer    Name:Steam, Local
+Index: 19   Type: UnityEngine.ParticleSystemRenderer    Name:Steam, World
+Index: 20   Type: UnityEngine.ParticleSystemRenderer    Name:SequentialFlashes, Burst
+Index: 21   Type: UnityEngine.MeshRenderer              Name:Monitor, Reboot
 
----------------------
+-------------------------------
 VoidSurvivorBody
-Index: 0       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlVoidSurvivorBody
-Index: 1       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlVoidSurvivorHead
-Index: 2       Type: UnityEngine.SkinnedMeshRenderer        Name:mdlVoidSurvivorMetal
-Index: 3       Type: UnityEngine.SkinnedMeshRenderer        Name:metalcollar.001
-Index: 4       Type: UnityEngine.ParticleSystemRenderer     Name:Goo, World
-Index: 5       Type: UnityEngine.ParticleSystemRenderer     Name:Goo, Local
-Index: 6       Type: UnityEngine.ParticleSystemRenderer     Name:Vacuum Radial
-Index: 7       Type: UnityEngine.ParticleSystemRenderer     Name:Vacuum Stars
-Index: 8       Type: UnityEngine.ParticleSystemRenderer     Name:Core
-Index: 9       Type: UnityEngine.ParticleSystemRenderer     Name:Smoke
-Index: 10      Type: UnityEngine.ParticleSystemRenderer     Name:Goo, World
-Index: 11      Type: UnityEngine.ParticleSystemRenderer     Name:Goo, Local
-Index: 12      Type: UnityEngine.ParticleSystemRenderer     Name:Vacuum Radial
-Index: 13      Type: UnityEngine.ParticleSystemRenderer     Name:Vacuum Stars
-Index: 14      Type: UnityEngine.ParticleSystemRenderer     Name:Core
-Index: 15      Type: UnityEngine.ParticleSystemRenderer     Name:Smoke
-Index: 16      Type: UnityEngine.ParticleSystemRenderer     Name:Goo, World
-Index: 17      Type: UnityEngine.ParticleSystemRenderer     Name:Goo, Local
-Index: 18      Type: UnityEngine.ParticleSystemRenderer     Name:Vacuum Radial
-Index: 19      Type: UnityEngine.ParticleSystemRenderer     Name:Vacuum Stars
-Index: 20      Type: UnityEngine.ParticleSystemRenderer     Name:Core
-Index: 21      Type: UnityEngine.ParticleSystemRenderer     Name:Smoke
-Index: 22      Type: UnityEngine.ParticleSystemRenderer     Name:Debris
-Index: 23      Type: UnityEngine.ParticleSystemRenderer     Name:Dust
-Index: 24      Type: UnityEngine.ParticleSystemRenderer     Name:Sparks
+Index: 0    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlVoidSurvivorBody
+Index: 1    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlVoidSurvivorHead
+Index: 2    Type: UnityEngine.SkinnedMeshRenderer       Name:mdlVoidSurvivorMetal
+Index: 3    Type: UnityEngine.SkinnedMeshRenderer       Name:metalcollar.001
+Index: 4    Type: UnityEngine.ParticleSystemRenderer    Name:Goo, World
+Index: 5    Type: UnityEngine.ParticleSystemRenderer    Name:Goo, Local
+Index: 6    Type: UnityEngine.ParticleSystemRenderer    Name:Vacuum Radial
+Index: 7    Type: UnityEngine.ParticleSystemRenderer    Name:Vacuum Stars
+Index: 8    Type: UnityEngine.ParticleSystemRenderer    Name:Core
+Index: 9    Type: UnityEngine.ParticleSystemRenderer    Name:Smoke
+Index: 10   Type: UnityEngine.ParticleSystemRenderer    Name:Goo, World
+Index: 11   Type: UnityEngine.ParticleSystemRenderer    Name:Goo, Local
+Index: 12   Type: UnityEngine.ParticleSystemRenderer    Name:Vacuum Radial
+Index: 13   Type: UnityEngine.ParticleSystemRenderer    Name:Vacuum Stars
+Index: 14   Type: UnityEngine.ParticleSystemRenderer    Name:Core
+Index: 15   Type: UnityEngine.ParticleSystemRenderer    Name:Smoke
+Index: 16   Type: UnityEngine.ParticleSystemRenderer    Name:Goo, World
+Index: 17   Type: UnityEngine.ParticleSystemRenderer    Name:Goo, Local
+Index: 18   Type: UnityEngine.ParticleSystemRenderer    Name:Vacuum Radial
+Index: 19   Type: UnityEngine.ParticleSystemRenderer    Name:Vacuum Stars
+Index: 20   Type: UnityEngine.ParticleSystemRenderer    Name:Core
+Index: 21   Type: UnityEngine.ParticleSystemRenderer    Name:Smoke
+Index: 22   Type: UnityEngine.ParticleSystemRenderer    Name:Debris
+Index: 23   Type: UnityEngine.ParticleSystemRenderer    Name:Dust
+Index: 24   Type: UnityEngine.ParticleSystemRenderer    Name:Sparks
